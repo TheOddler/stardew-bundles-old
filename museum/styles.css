@@ -1,0 +1,40 @@
+
+img {
+    height: 24px;
+    vertical-align: middle;
+}
+
+.category {
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin: 2px;
+    vertical-align: top;
+}
+
+.category h2 {
+    padding: 2px 0;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    background: lightgray;
+}
+
+.items {
+    text-align: center;
+}
+
+.item {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 2px 4px;
+}
+
+.item::before {
+    content: "☐ ";
+}
+
+.reward {
+    background: lightgray;
+    padding: 2px 0;
+    text-align: center;
+}
